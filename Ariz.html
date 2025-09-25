@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Node & Validator Portfolio</title>
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html { scroll-behavior: smooth; }
+  </style>
+</head>
+<body class="bg-gray-950 text-gray-100 font-sans">
+
+  <!-- Navbar -->
+  <header class="fixed w-full bg-gray-900 bg-opacity-90 backdrop-blur-sm border-b border-gray-800 z-50">
+    <div class="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
+      <!-- Logo & Name -->
+      <div class="flex items-center space-x-3">
+        <img src="ariz.png" alt="Ariz Node Logo" class="h-10 w-10 rounded-full">
+        <span class="text-xl font-bold">Ariz Node</span>
+      </div>
+      <!-- Menu -->
+      <nav class="space-x-6 text-gray-300 font-medium">
+        <a href="#validators" class="hover:text-white">Portfolio</a>
+        <a href="#contact" class="hover:text-white">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section 
+    class="min-h-screen flex flex-col justify-center items-center text-center px-6 bg-cover bg-center bg-no-repeat"
+    style="background-image: url('background.png');"
+  >
+    <!-- Overlay biar teks tetap jelas -->
+    <div class="bg-black bg-opacity-60 p-10 rounded-2xl">
+      <h1 class="text-5xl font-bold mb-4">Ariz Node</h1>
+      <p class="text-lg text-gray-300">Crypto Enthusiast | Node Operator & Validator</p>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-14 px-6 max-w-3xl mx-auto text-center">
+    <h2 class="text-3xl font-semibold mb-4">About Me</h2>
+    <p class="text-gray-400 leading-relaxed">
+      I am <span class="text-white font-medium">Ariz Node</span>, a 
+      <span class="text-white font-medium">Crypto Enthusiast</span> 
+      focused on running <span class="text-white font-medium">Nodes and Validators</span> across multiple blockchain projects.  
+      Experienced in server management, uptime monitoring, and contributing to both testnets and mainnets.
+    </p>
+  </section>
+
+
+  <!-- Validators -->
+  <section id="validators" class="py-16 px-6 bg-gray-900">
+    <h2 class="text-3xl font-semibold text-center mb-10">Portfolio</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-5xl mx-auto">
+      
+      <!-- Empeiria -->
+      <div class="bg-gray-800 rounded-2xl shadow p-6 flex flex-col items-center">
+        <img src="empe.png" alt="Empeiria Logo" class="h-20 mb-4 rounded-full">
+        <h3 class="text-xl font-bold mb-2">Empeiria Validator</h3>
+        <span class="mb-4 inline-block px-4 py-1 text-sm font-semibold text-white bg-green-600 rounded-full">
+          Active
+        </span>
+        <p class="text-gray-400 text-center mb-4">
+          Running a validator to support and secure the Empeiria blockchain network.
+        </p>
+        <a href="https://hub.empe.io/staking/validator-details/empevaloper1jj6lyfgwynj64f76qvr35hsy7ehlt7mtz7nc55" 
+           target="_blank" 
+           class="px-5 py-2 bg-cyan-500 rounded-xl hover:bg-cyan-400 transition">
+          Delegate Now
+        </a>
+      </div>
+
+      <!-- Taiko -->
+      <div class="bg-gray-800 rounded-2xl shadow p-6 flex flex-col items-center">
+        <img src="taiko.png" alt="Taiko Logo" class="h-20 mb-4 rounded-full">
+        <h3 class="text-xl font-bold mb-2">Taiko Testnet Proposer</h3>
+        <span class="mb-4 inline-block px-4 py-1 text-sm font-semibold text-white bg-red-600 rounded-full">
+          Ended
+        </span>
+        <p class="text-gray-400 text-center mb-4">
+          Actively participated as a proposer in the Taiko Testnet network.
+        </p>
+        <a href="https://sepolia.etherscan.io/tx/0x73bbc55bd4487777954667f8cfed626caea8084f215c1d4f07f90420c7e1f9b2" 
+           target="_blank" 
+           class="px-5 py-2 bg-blue-500 rounded-xl hover:bg-blue-400 transition">
+          View Proof
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="py-16 px-6 max-w-4xl mx-auto text-center">
+    <h2 class="text-3xl font-semibold mb-10">Skills</h2>
+    <div class="flex flex-wrap justify-center gap-6">
+      <span class="px-6 py-3 bg-blue-600 rounded-full shadow">Node Operation</span>
+      <span class="px-6 py-3 bg-green-600 rounded-full shadow">Validator</span>
+      <span class="px-6 py-3 bg-purple-600 rounded-full shadow">Linux Server</span>
+      <span class="px-6 py-3 bg-yellow-600 rounded-full shadow">Networking</span>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-16 px-6 bg-gray-900 text-center">
+    <h2 class="text-3xl font-semibold mb-8">Contact</h2>
+    <div class="flex justify-center gap-10">
+      <!-- X -->
+      <a href="https://twitter.com/eren_drop" target="_blank">
+        <img src="x.png" alt="X Logo" class="h-12 w-12 hover:scale-110 transition-transform">
+      </a>
+      <!-- Telegram -->
+      <a href="https://t.me/baiqfina" target="_blank">
+        <img src="telegram.png" alt="Telegram Logo" class="h-12 w-12 hover:scale-110 transition-transform">
+      </a>
+      <!-- Discord -->
+      <a href="https://discordapp.com/users/efink_7" target="_blank">
+        <img src="discord.png" alt="Discord Logo" class="h-12 w-12 hover:scale-110 transition-transform">
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-6 text-center text-gray-500 bg-gray-950 border-t border-gray-800">
+    © 2025 Ariz. All rights reserved.
+  </footer>
+
+</body>
+</html>
